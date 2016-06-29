@@ -1,0 +1,137 @@
+/*
+body{
+	font-family: cursive;
+	font-size: 14pt;
+	text-align: center;
+	center everything
+}body
+
+#puzzleaarea
+{
+	width: 400px;
+	height: 400px;
+	centers puzzle area
+	margin-left: auto;
+	margin-right: auto;
+}puzzlearea
+
+create something for every div inside of a div 
+div > div
+{
+	float: left;
+	border: solid;
+	width: 100px;
+	height: 100px;
+	border-color: black;
+	border-width: 5px;
+	margin: 2px; temporary
+	background-color: blue; temporary 
+	overflow: hidden;
+	font-size: 40pt;
+
+	TODO: might have to make a selector for every div inside puzzlearea using: div > div:nth-child(x) where x is a certain div inside puzzlearea; 
+}div > div 
+*/
+
+body{
+	font-family: cursive;
+	font-size: 14pt;
+	/*center everything*/
+	text-align: center;
+}
+
+#puzzlearea {
+	border: 10px solid black;
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+	
+}
+
+div {
+	position: absolute;
+	border: 1px solid black;
+	/* float:left; */
+	height: 100px;
+	width: 100px;
+}
+
+#one{
+	background-image: url("img/background.jpg");
+	background-position: 0px 0px;
+}
+
+#two{
+	background-image: url("img/background.jpg");
+	background-position: -100px 0px;
+}
+
+#three{
+	background-image: url("img/background.jpg");
+	background-position: -200px 0px;
+}
+
+#four{
+	background-image: url("img/background.jpg");
+	background-position: -300px 0px;
+}
+
+#five{
+	background-image: url("img/background.jpg");
+	background-position: 0px -100px;
+}
+
+#six{
+	background-image: url("img/background.jpg");
+	background-position: -100px -100px;
+}
+
+#seven{
+	background-image: url("img/background.jpg");
+	background-position: -200px -100px;
+}
+
+#eight{
+	background-image: url("img/background.jpg");
+	background-position: -300px -100px;
+}
+
+#nine{
+	background-image: url("img/background.jpg");
+	background-position: 0px -200px;
+}
+
+#ten{
+	background-image: url("img/background.jpg");
+	background-position: -100px -200px;
+}
+
+#eleven{
+	background-image: url("img/background.jpg");
+	background-position: -200px -200px;
+}
+
+#twelve{
+	background-image: url("img/background.jpg");
+	background-position: -300px -200px;
+}
+
+#thirteen{
+	background-image: url("img/background.jpg");
+	background-position: 0px -300px;
+}
+
+#fourteen{
+	background-image: url("img/background.jpg");
+	background-position: -100px -300px;
+}
+
+#fifteen{
+	background-image: url("img/background.jpg");
+	background-position: -200px -300px;
+}
+
+.highlight:hover{
+	border-color: red;
+	color: red;
+}
